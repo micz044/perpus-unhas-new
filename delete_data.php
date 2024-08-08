@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['id'])) {
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "unhas";
+    $dbname = "perpus-unhas";
 
     // Membuat koneksi
     $conn = new mysqli($servername, $username, $password, $dbname);

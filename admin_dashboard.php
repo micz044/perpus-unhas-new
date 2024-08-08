@@ -119,7 +119,7 @@ if (!isset($_SESSION['admin_username'])) {
     <a href="tambah_admin.php"><i class="fas fa-user-shield"></i> Tambah Admin</a>
     <a href="change_background.php"><i class="fas fa-paint-brush"></i> Ganti Background Pustakawan dan Admin</a>
     <a href="verify_user.php"><i class="fas fa-user-check"></i> Verify Pustakawan</a>
-     <a href="riwayatt.php"><i class="fas fa-history"></i> Riwayat Penghapusan</a>
+    <a href="riwayatt.php"><i class="fas fa-history"></i> Riwayat Penghapusan</a>
   </div>
   <div class="main-content">
     <h2>Selamat Datang, Admin <?php echo htmlspecialchars($_SESSION['admin_username']); ?></h2>

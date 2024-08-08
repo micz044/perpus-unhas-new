@@ -4,7 +4,7 @@ session_start();
 
 // Database connection
 $host = 'localhost';
-$dbname = 'unhas';
+$dbname = 'perpus-unhas';
 $username = 'root';
 $password = '';
 
@@ -294,13 +294,13 @@ $dosen = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </div>
 
     <div class="sidebar">
-        <a href="admin_dashboard.php"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a href="#" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
         <a href="tambah_data_dosen.php"><i class="fas fa-user-plus"></i> Tambah Data Dosen</a>
-        <a href="#"><i class="fas fa-building"></i> Tambah Data Prodi</a>
-        <a href="#"><i class="fas fa-user-shield"></i> Tambah Admin</a>
-        <a href="#"><i class="fas fa-paint-brush"></i> Ganti Background Pustakawan dan Admin</a>
-        <a href="#"><i class="fas fa-user-check"></i> Verify Pustakawan</a>
-         <a href="#"><i class="fas fa-history"></i> Riwayat Penghapusan</a>
+        <a href="tambah_data_prodi.php"><i class="fas fa-building"></i> Tambah Data Prodi</a>
+        <a href="tambah_admin.php"><i class="fas fa-user-shield"></i> Tambah Admin</a>
+        <a href="change_background.php"><i class="fas fa-paint-brush"></i> Ganti Background Pustakawan dan Admin</a>
+        <a href="verify_user.php"><i class="fas fa-user-check"></i> Verify Pustakawan</a>
+        <a href="riwayatt.php"><i class="fas fa-history"></i> Riwayat Penghapusan</a>
   </div>
 
     <div class="main-content">

@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root"; // Sesuaikan dengan username phpMyAdmin Anda
 $password = ""; // Sesuaikan dengan password phpMyAdmin Anda
-$dbname = "unhas";
+$dbname = "perpus-unhas";
 
 // Membuat koneksi
 $conn = new mysqli($servername, $username, $password, $dbname);

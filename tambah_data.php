@@ -1,7 +1,7 @@
 <?php
 // Koneksi ke database
 $host = 'localhost';
-$dbname = 'unhas';
+$dbname = 'perpus-unhas';
 $username = 'root';
 $password = '';
 

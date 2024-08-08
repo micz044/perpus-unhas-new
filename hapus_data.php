@@ -4,7 +4,7 @@ session_start();
 
 // Database connection
 $host = 'localhost';
-$dbname = 'unhas';
+$dbname = 'perpus-unhas';
 $username = 'root';
 $password = '';
 
